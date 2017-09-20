@@ -1,0 +1,74 @@
+html, body{
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+p, .banner-content {
+  text-align: center;
+}
+
+.portfolio-btn, .letschat-btn {
+  border: solid 2px #333;
+  padding: .5em;
+  padding-left: 3.2em;
+  padding-right: 3.2em;
+  text-align: center
+}
+
+.portfolio-btn:hover, .letschat-btn:hover{
+  transition: 0.5s ease;
+  background-color: #333;
+  color: #fff;
+  border-radius: 4em;
+}
+
+.designs {
+  text-align: center;
+  letter-spacing: 2.4em;
+  text-indent: 2.4em;
+  margin: 0;
+}
+
+.first-name, .last-name {
+  font-size: 500%;
+  text-align: center;
+}
+
+.first-name {
+  padding: 0;
+}
+
+.last-name {
+  font-size: 514%;
+}
+
+.banner {
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  background: url("../images/essaie.svg") no-repeat 50% 50%;
+  display: table;
+  top: 0;
+  background-size: cover;
+}
+
+.banner .banner-inner {
+  display: table-cell;
+  vertical-align: middle;
+  width: 100%;
+  max-width: none;
+}
+
+header {
+  width: 100%;
+  height: 100%;
+}
